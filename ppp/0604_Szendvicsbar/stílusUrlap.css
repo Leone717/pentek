@@ -1,0 +1,24 @@
+.sor label
+{
+    float: left;
+}
+
+/*.sor::after{
+    clear: both;
+}*/
+
+.sor label{
+    width: 15%;
+    text-align: right;
+}
+
+.sor input[type=text],.sor input[type=password],.sor input[type=file],.sor label
+{
+    margin: 0.5%;
+}
+
+.sor input[type=text],.sor input[type=password],.sor input[type=file]
+{
+    width: 15%;
+    margin-left: 3%;
+}
